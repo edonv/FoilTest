@@ -3,27 +3,44 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		DA804815249AD1D5006C638B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA804814249AD1D5006C638B /* AppDelegate.swift */; };
 		DA804817249AD1D5006C638B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA804816249AD1D5006C638B /* SceneDelegate.swift */; };
-		DA804819249AD1D5006C638B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA804818249AD1D5006C638B /* ViewController.swift */; };
 		DA80481C249AD1D5006C638B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA80481A249AD1D5006C638B /* Main.storyboard */; };
 		DA80481E249AD1D8006C638B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA80481D249AD1D8006C638B /* Assets.xcassets */; };
 		DA804821249AD1D8006C638B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA80481F249AD1D8006C638B /* LaunchScreen.storyboard */; };
+		DA804829249AD52C006C638B /* TableViewControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA804828249AD52C006C638B /* TableViewControllers.swift */; };
+		DA804830249AD57B006C638B /* PromiseKit in Frameworks */ = {isa = PBXBuildFile; productRef = DA80482F249AD57B006C638B /* PromiseKit */; };
+		DA804833249AD5A0006C638B /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = DA804832249AD5A0006C638B /* Alamofire */; };
+		DA804835249AD5B9006C638B /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA804834249AD5B9006C638B /* Models.swift */; };
+		DA804838249AD74F006C638B /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = DA804837249AD74F006C638B /* Kingfisher */; };
+		DA80483A249ADD35006C638B /* SessionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA804839249ADD35006C638B /* SessionData.swift */; };
+		DA80483D249ADF01006C638B /* ArticleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA80483B249ADF01006C638B /* ArticleTableViewCell.swift */; };
+		DA80483E249ADF01006C638B /* ArticleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA80483C249ADF01006C638B /* ArticleTableViewCell.xib */; };
+		DA804842249AF30A006C638B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA804841249AF30A006C638B /* Extensions.swift */; };
+		DAD14DF1249E4E7E00893515 /* ArticleListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD14DF0249E4E7E00893515 /* ArticleListViewController.swift */; };
+		DAD14DF3249E5F9900893515 /* ArticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD14DF2249E5F9900893515 /* ArticleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DA804811249AD1D5006C638B /* FoilTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoilTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA804814249AD1D5006C638B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA804816249AD1D5006C638B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DA804818249AD1D5006C638B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DA80481B249AD1D5006C638B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DA80481D249AD1D8006C638B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA804820249AD1D8006C638B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA804822249AD1D8006C638B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA804828249AD52C006C638B /* TableViewControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewControllers.swift; sourceTree = "<group>"; };
+		DA804834249AD5B9006C638B /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		DA804839249ADD35006C638B /* SessionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionData.swift; sourceTree = "<group>"; };
+		DA80483B249ADF01006C638B /* ArticleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleTableViewCell.swift; sourceTree = "<group>"; };
+		DA80483C249ADF01006C638B /* ArticleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArticleTableViewCell.xib; sourceTree = "<group>"; };
+		DA804841249AF30A006C638B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		DAD14DF0249E4E7E00893515 /* ArticleListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleListViewController.swift; sourceTree = "<group>"; };
+		DAD14DF2249E5F9900893515 /* ArticleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +48,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA804838249AD74F006C638B /* Kingfisher in Frameworks */,
+				DA804830249AD57B006C638B /* PromiseKit in Frameworks */,
+				DA804833249AD5A0006C638B /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,8 +78,15 @@
 			children = (
 				DA804814249AD1D5006C638B /* AppDelegate.swift */,
 				DA804816249AD1D5006C638B /* SceneDelegate.swift */,
-				DA804818249AD1D5006C638B /* ViewController.swift */,
+				DAD14DF0249E4E7E00893515 /* ArticleListViewController.swift */,
+				DA804828249AD52C006C638B /* TableViewControllers.swift */,
 				DA80481A249AD1D5006C638B /* Main.storyboard */,
+				DA80483B249ADF01006C638B /* ArticleTableViewCell.swift */,
+				DA80483C249ADF01006C638B /* ArticleTableViewCell.xib */,
+				DAD14DF2249E5F9900893515 /* ArticleViewController.swift */,
+				DA804834249AD5B9006C638B /* Models.swift */,
+				DA804839249ADD35006C638B /* SessionData.swift */,
+				DA804841249AF30A006C638B /* Extensions.swift */,
 				DA80481D249AD1D8006C638B /* Assets.xcassets */,
 				DA80481F249AD1D8006C638B /* LaunchScreen.storyboard */,
 				DA804822249AD1D8006C638B /* Info.plist */,
@@ -83,6 +110,11 @@
 			dependencies = (
 			);
 			name = FoilTest;
+			packageProductDependencies = (
+				DA80482F249AD57B006C638B /* PromiseKit */,
+				DA804832249AD5A0006C638B /* Alamofire */,
+				DA804837249AD74F006C638B /* Kingfisher */,
+			);
 			productName = FoilTest;
 			productReference = DA804811249AD1D5006C638B /* FoilTest.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +143,11 @@
 				Base,
 			);
 			mainGroup = DA804808249AD1D5006C638B;
+			packageReferences = (
+				DA80482E249AD57B006C638B /* XCRemoteSwiftPackageReference "PromiseKit" */,
+				DA804831249AD5A0006C638B /* XCRemoteSwiftPackageReference "Alamofire" */,
+				DA804836249AD74F006C638B /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = DA804812249AD1D5006C638B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,6 +162,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA80483E249ADF01006C638B /* ArticleTableViewCell.xib in Resources */,
 				DA804821249AD1D8006C638B /* LaunchScreen.storyboard in Resources */,
 				DA80481E249AD1D8006C638B /* Assets.xcassets in Resources */,
 				DA80481C249AD1D5006C638B /* Main.storyboard in Resources */,
@@ -138,9 +176,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA804819249AD1D5006C638B /* ViewController.swift in Sources */,
+				DAD14DF1249E4E7E00893515 /* ArticleListViewController.swift in Sources */,
+				DA80483A249ADD35006C638B /* SessionData.swift in Sources */,
 				DA804815249AD1D5006C638B /* AppDelegate.swift in Sources */,
+				DA80483D249ADF01006C638B /* ArticleTableViewCell.swift in Sources */,
+				DA804842249AF30A006C638B /* Extensions.swift in Sources */,
+				DA804835249AD5B9006C638B /* Models.swift in Sources */,
+				DAD14DF3249E5F9900893515 /* ArticleViewController.swift in Sources */,
 				DA804817249AD1D5006C638B /* SceneDelegate.swift in Sources */,
+				DA804829249AD52C006C638B /* TableViewControllers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +382,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DA80482E249AD57B006C638B /* XCRemoteSwiftPackageReference "PromiseKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mxcl/PromiseKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.13.1;
+			};
+		};
+		DA804831249AD5A0006C638B /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.2.1;
+			};
+		};
+		DA804836249AD74F006C638B /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.14.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DA80482F249AD57B006C638B /* PromiseKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DA80482E249AD57B006C638B /* XCRemoteSwiftPackageReference "PromiseKit" */;
+			productName = PromiseKit;
+		};
+		DA804832249AD5A0006C638B /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DA804831249AD5A0006C638B /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		DA804837249AD74F006C638B /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DA804836249AD74F006C638B /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DA804809249AD1D5006C638B /* Project object */;
 }
